@@ -206,7 +206,7 @@
 			<scope>runtime</scope>
 		</dependency>
 		<!-- PERSISTENCE end -->
-		
+
 		<!-- WEB begin -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -781,7 +781,7 @@
 					</warSourceExcludes>
 					<webappDirectory>${project.build.directory}/${project.artifactId}</webappDirectory><!-- 
 					<webXml>${project.basedir}/target/jspweb.xml</webXml> -->
-					<warName>${project.artifactId}</warName>
+					<warName>XCCMS</warName>
 				</configuration>
 			</plugin>
 			
